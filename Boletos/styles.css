@@ -1,0 +1,43 @@
+/* VARIABLES */
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --card: #f8f9fa;
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f1f1f1;
+  --card: #1e1e1e;
+}
+
+/* BASE */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* TARJETAS */
+.card {
+  background-color: var(--card);
+  border: none;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+
+/* IMAGEN */
+img{
+  border-radius: 8px;
+  width: 300px;
+}
+
+/* PRECIO */
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* ASIDE */
+.ad {
+  font-size: 0.95rem;
+}
